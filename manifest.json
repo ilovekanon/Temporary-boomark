@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "default_locale" : "en",
+  "name": "__MSG_appName__",
+  "short_name": "TempBookmark",
+  "description" : "__MSG_appDescription__",
+  "version": "1.1",
+  "author": "Mark Song",
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+  "browser_action": {
+    "default_icon": "icon128.png",
+    "default_popup": "popup.html"
+  },
+  "icons": { 
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png" 
+  }
+} 

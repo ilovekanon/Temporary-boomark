@@ -1,0 +1,145 @@
+* {
+  padding:0;
+  margin:0;
+}
+body {
+  width: 350px;
+  overflow-x: hidden;
+
+  margin:0px;
+  border: 1px solid #bfbfbf;
+  font-family: 'Helvetica Neue', arial, sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 17px;
+}
+.bang_clear {clear : both;}
+.bang_space5 {margin:5px;}
+#bang_header {
+  padding:5px;
+  height:30px;
+  line-height: 30px;
+  border-bottom: 1px solid #285b71;
+
+  background-color:#5993ad;
+}
+.bang_float_left {
+  float:left;
+}
+.bang_float_right {
+  float:right;
+}
+.bang_title {
+  margin-left:75px;
+  color:white;
+  text-shadow: 1px 1px 2px #000000;
+}
+.bangBtn {
+  margin:5px;
+  background: white;
+  border: 1px solid #b0b0b0;
+  text-align: center;
+  padding: 3px 10px;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-user-select: none;
+}
+#bang_addBtn {
+}
+#bang_saveSettingBtn {
+  display: none;
+}
+#bang_body {
+  padding:5px;
+}
+.bang_favIcon {
+  width:22px;
+}
+.bang_delete_icon {
+  cursor:pointer;
+}
+.bang_favIcon, .bang_delete_icon {
+  vertical-align:middle;
+}
+
+.bang_title_area {
+  margin-left:10px;
+  width:250px;
+}
+#bang_body_wrap{
+  width:700px;
+  overflow: hidden;
+}
+#bang_bookmark_list, #bang_setting {
+  float:left;
+  width:350px;
+}
+#bang_bookmark_list {
+  min-height:100px;
+  max-height:300px;
+  overflow: auto;
+}
+#bang_bookmark_list li{
+  padding:5px 0px;
+  border-bottom:1px dashed #cdcdcd;
+}
+#bang_setting div{ 
+ margin:10px;
+}
+#bang_remove_schedule_wrap  {
+  font-size:14px;
+}
+.bang_remove_btn_wrap {
+  position: relative;
+  margin-right:18px;
+}
+.remain_day {
+  position: absolute;
+  font-size: 9px;
+  padding: 3px;
+  background-color: #d9534f;
+  border: 1px solid #d9534f;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color: white;
+  height: 6px;
+  line-height: 6px;
+  margin-top: 10px;
+  margin-left: -4px;
+}
+#bang_remove_schedule_wrap label{
+  display: inline-block;
+  font-size:14px;
+  margin-bottom:5px;
+}
+#bang_schedule_input { 
+  width: 30px;
+  text-align: right;
+  padding:3px 5px;
+  margin-left:20px;
+}
+.bang_setting_hint {
+  color:#666;
+  font-style: italic;
+}
+#bang_setting_notice_wrap {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color:white;
+  padding:5px;
+  margin:5px;
+  display: none;
+}
+#bang_setting_notice_wrap.bang_error {
+  background: #d9534f;
+  border: 1px solid #d9534f;
+}
+#bang_setting_notice_wrap.bang_notice {
+  background: #5bc0de;
+  border: 1px solid #5bc0de;
+}

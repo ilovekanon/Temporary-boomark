@@ -1,0 +1,33 @@
+{
+	"appName" : {
+		"message" : "Temporary bookmarks"
+	},
+	"appDescription" : {
+		"message" : "Temporaray bookmarks is a bookmarking tool for saving web pages only for temporary."
+	},
+	"settingBtn" : {
+		"message" : "Setting"
+	},
+	"listBtn" : {
+		"message" : "List"
+	},
+	"addBtn" : {
+		"message" : "Add"
+	},
+	"saveBtn" : {
+		"message" : "Save"
+	},
+	"removingSchedule" : {
+		"message" : "Removing schedule"
+	},
+	"daysLater" : {
+		"message" : "days later"
+	},
+	"daysLaterBetween" : {
+		"message" : "between 1 and 14"
+	},
+	"effectNotice" : {
+		"message" : "This setting will effect to only new list"
+	}
+
+}

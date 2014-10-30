@@ -1,0 +1,32 @@
+{
+	"appName" : {
+		"message" : "자동삭제 북마크"
+	},
+	"appDescription" : {
+		"message" : "특정시간 후에 자동으로 삭제되는 북마크(즐겨찾기) 툴입니다."
+	},
+	"settingBtn" : {
+		"message" : "설정"
+	},
+	"listBtn" : {
+		"message" : "목록"
+	},
+	"addBtn" : {
+		"message" : "추가"
+	},
+	"saveBtn" : {
+		"message" : "저장"
+	},
+	"removingSchedule" : {
+		"message" : "자동삭제 스케쥴"
+	},
+	"daysLater" : {
+		"message" : "일 후에 삭제"
+	},
+	"daysLaterBetween" : {
+		"message" : "1 ~ 14일"
+	},
+	"effectNotice" : {
+		"message" : "이 설정은 이미 등록되어 있는 북마크에는 적용되지 않습니다"
+	}
+}

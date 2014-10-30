@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Temporary Bookmarks</title>
+    <link rel='stylesheet' type='text/css' href='style.min.css' />
+    <script src="popup.min.js"></script>
+    <script src='/lib/jquery-1.11.1.min.js'></script>
+  </head>
+  <body>
+    <div id='bang_header'>
+      <div class='bang_float_left'><!--<a id='bang_seetingBtn' class='bangBtn' value='Setting'>__MSG_settingBtn__</a>--><img src='/images/setting_white.png' alt='__MSG_settingBtn__' title='__MSG_settingBtn__' id='bang_seetingBtn' style='width:31px'/></div>
+      <div class='bang_float_left bang_title'>Temporary bookmarks</div>
+      <div class='bang_float_right'>
+        <!--<a id='bang_addBtn' class='bangBtn' value='Add' title='Save current tab'>+ __MSG_addBtn__</a>--><img src='/images/add_white.png' id='bang_addBtn' alt='__MSG_addBtn__' title='__MSG_addBtn__'/>
+        <!--<a id='bang_saveSettingBtn' class='bangBtn' value='Save' title='Save setting'>__MSG_saveBtn__</a> -->
+        <img src='/images/save_white.png' id='bang_saveSettingBtn' alt='__MSG_saveBtn__' title='__MSG_saveBtn__'/>
+      </div>
+      <br class='bang_clear' />
+    </div>
+    <div id='bang_body'>
+      <div id='bang_body_wrap'>
+        <ul id='bang_bookmark_list'></ul>
+        <div id='bang_setting'>
+          <div id='bang_remove_schedule_wrap'>
+            <label for='bang_schedule_input'>* __MSG_removingSchedule__ : </label>
+            <br />
+             <input type='number' id='bang_schedule_input' name='bang_schedule_input' min="1" max="14" tabindex="-1" /> __MSG_daysLater__. <span class='bang_setting_hint'>(__MSG_daysLaterBetween__)</span>
+             <div class='bang_space5'> </div>
+             <span class='bang_setting_hint'>(__MSG_effectNotice__.)</span>
+          </div>
+          <div id='bang_setting_notice_wrap' class=''></div>
+        </div>
+        <br  class='bang_clear' />
+      </div>
+    </div><!-- // bang_body -->
+  </body>
+</html>
+
